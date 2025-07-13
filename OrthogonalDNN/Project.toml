@@ -1,0 +1,4 @@
+name = "OrthogonalDNN"
+uuid = "e5ce2a6d-c960-4320-89a0-a135dd900561"
+authors = ["MateoOrtiz001 < zitromateo123@gmail.com>"]
+version = "0.1.0"
