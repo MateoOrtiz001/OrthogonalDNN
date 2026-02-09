@@ -1,0 +1,7 @@
+# GitHub Linguist configuration
+# Exclude notebooks from language statistics so the repo is classified as Julia.
+
+report/*.ipynb linguist-detectable=false
+
+# (Optional) treat the whole report folder as documentation
+report/** linguist-documentation

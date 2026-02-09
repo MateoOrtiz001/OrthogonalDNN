@@ -1,0 +1,16 @@
+# Julia
+Manifest.toml
+**/Manifest.toml
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

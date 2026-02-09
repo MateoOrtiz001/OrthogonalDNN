@@ -12,13 +12,14 @@ Orthogonal weights preserve distances and angles between representations across 
 
 ```julia
 using Pkg
-Pkg.add(url="https://github.com/MateoOrtiz001/OrthogonalDNN")
+Pkg.add(PackageSpec(url="https://github.com/MateoOrtiz001/OrthogonalDNN", subdir="OrthogonalDNN"))
 ```
 
 Or in development mode:
 
 ```julia
-] dev path/to/OrthogonalDNN
+using Pkg
+Pkg.develop(PackageSpec(path="path/to/OrthogonalDNN", subdir="OrthogonalDNN"))
 ```
 
 ## Quick Start
